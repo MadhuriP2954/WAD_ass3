@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Admin Dashboard</title>
+  <!-- Link to Bootstrap CSS for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar section -->
+  <div class="sidebar">
+    <h3>Admin Dashboard</h3>
+    <!-- Sidebar navigation links -->
+    <a href="students.html">Students</a>
+    <a href="courses.html">Courses</a>
+    <a href="faculties.html">Faculties</a>
+    <a href="#">Reports</a>
+    <a href="#">Settings</a>
+  </div>
+  <!-- Main content area -->
+  <div class="content">
+    <h1 class="mb-4">Welcome, Admin</h1>
+    <!-- Row to contain the statistics cards -->
+    <div class="row">
+      <!-- Card 1: Total Students -->
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Total Students</h5>
+            <p class="card-text display-6">1,200</p>
+            <button class="btn btn-primary" onclick="navigateTo('students.html')">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2: Total Courses -->
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Total Courses</h5>
+            <p class="card-text display-6">85</p>
+            <button class="btn btn-primary" onclick="navigateTo('courses.html')">View Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3: Faculties -->
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Faculties</h5>
+            <p class="card-text display-6">45</p>
+            <button class="btn btn-primary" onclick="navigateTo('faculties.html')">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+  <!-- Link to Bootstrap JavaScript for interactive components -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 

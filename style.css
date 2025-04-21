@@ -1,0 +1,34 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    height: 100vh; /* Full height */
+    position: fixed; /* Fixed on the left */
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    padding: 15px; /* Padding inside the sidebar */
+  }
+  
+  /* Styling for links in the sidebar */
+  .sidebar a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make links block elements */
+    margin: 10px 0; /* Spacing between links */
+  }
+  
+  .sidebar a:hover {
+    background-color: #495057; /* Hover effect background */
+    border-radius: 5px; /* Rounded corners */
+    padding-left: 10px; /* Indent on hover */
+  }
+  
+  /* Main content area */
+  .content {
+    margin-left: 200px; /* Space for the sidebar */
+    padding: 20px; /* Padding inside the content */
+  }
+  
